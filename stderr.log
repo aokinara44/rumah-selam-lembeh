@@ -1,0 +1,306 @@
+file:///home/rumahs31/rumah-selam-lembeh/app.js:1
+var http = require('http');
+           ^
+
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/home/rumahs31/rumah-selam-lembeh/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///home/rumahs31/rumah-selam-lembeh/app.js:1:12
+    at ModuleJobSync.runSync (node:internal/modules/esm/module_job:507:37)
+    at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:441:47)
+    at loadESMFromCJS (node:internal/modules/cjs/loader:1567:24)
+    at Module._compile (node:internal/modules/cjs/loader:1720:5)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1871:10)
+    at Module.load (node:internal/modules/cjs/loader:1470:32)
+    at Module._load (node:internal/modules/cjs/loader:1290:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+
+Node.js v24.6.0
+file:///home/rumahs31/rumah-selam-lembeh/app.js:1
+var http = require('http');
+           ^
+
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/home/rumahs31/rumah-selam-lembeh/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///home/rumahs31/rumah-selam-lembeh/app.js:1:12
+    at ModuleJobSync.runSync (node:internal/modules/esm/module_job:507:37)
+    at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:441:47)
+    at loadESMFromCJS (node:internal/modules/cjs/loader:1567:24)
+    at Module._compile (node:internal/modules/cjs/loader:1720:5)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1871:10)
+    at Module.load (node:internal/modules/cjs/loader:1470:32)
+    at Module._load (node:internal/modules/cjs/loader:1290:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+
+Node.js v24.6.0
+file:///home/rumahs31/rumah-selam-lembeh/app.js:1
+var http = require('http');
+           ^
+
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/home/rumahs31/rumah-selam-lembeh/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///home/rumahs31/rumah-selam-lembeh/app.js:1:12
+    at ModuleJobSync.runSync (node:internal/modules/esm/module_job:507:37)
+    at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:441:47)
+    at loadESMFromCJS (node:internal/modules/cjs/loader:1567:24)
+    at Module._compile (node:internal/modules/cjs/loader:1720:5)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1871:10)
+    at Module.load (node:internal/modules/cjs/loader:1470:32)
+    at Module._load (node:internal/modules/cjs/loader:1290:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+
+Node.js v24.6.0
+file:///home/rumahs31/rumah-selam-lembeh/app.js:1
+var http = require('http');
+           ^
+
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/home/rumahs31/rumah-selam-lembeh/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///home/rumahs31/rumah-selam-lembeh/app.js:1:12
+    at ModuleJobSync.runSync (node:internal/modules/esm/module_job:507:37)
+    at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:441:47)
+    at loadESMFromCJS (node:internal/modules/cjs/loader:1567:24)
+    at Module._compile (node:internal/modules/cjs/loader:1720:5)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1871:10)
+    at Module.load (node:internal/modules/cjs/loader:1470:32)
+    at Module._load (node:internal/modules/cjs/loader:1290:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+
+Node.js v24.6.0
+file:///home/rumahs31/rumah-selam-lembeh/app.js:1
+var http = require('http');
+           ^
+
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/home/rumahs31/rumah-selam-lembeh/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///home/rumahs31/rumah-selam-lembeh/app.js:1:12
+    at ModuleJobSync.runSync (node:internal/modules/esm/module_job:507:37)
+    at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:441:47)
+    at loadESMFromCJS (node:internal/modules/cjs/loader:1567:24)
+    at Module._compile (node:internal/modules/cjs/loader:1720:5)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1871:10)
+    at Module.load (node:internal/modules/cjs/loader:1470:32)
+    at Module._load (node:internal/modules/cjs/loader:1290:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+
+Node.js v24.6.0
+file:///home/rumahs31/rumah-selam-lembeh/app.js:1
+var http = require('http');
+           ^
+
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/home/rumahs31/rumah-selam-lembeh/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///home/rumahs31/rumah-selam-lembeh/app.js:1:12
+    at ModuleJobSync.runSync (node:internal/modules/esm/module_job:507:37)
+    at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:441:47)
+    at loadESMFromCJS (node:internal/modules/cjs/loader:1567:24)
+    at Module._compile (node:internal/modules/cjs/loader:1720:5)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1871:10)
+    at Module.load (node:internal/modules/cjs/loader:1470:32)
+    at Module._load (node:internal/modules/cjs/loader:1290:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+
+Node.js v24.6.0
+file:///home/rumahs31/rumah-selam-lembeh/app.js:1
+var http = require('http');
+           ^
+
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/home/rumahs31/rumah-selam-lembeh/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///home/rumahs31/rumah-selam-lembeh/app.js:1:12
+    at ModuleJobSync.runSync (node:internal/modules/esm/module_job:507:37)
+    at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:441:47)
+    at loadESMFromCJS (node:internal/modules/cjs/loader:1567:24)
+    at Module._compile (node:internal/modules/cjs/loader:1720:5)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1871:10)
+    at Module.load (node:internal/modules/cjs/loader:1470:32)
+    at Module._load (node:internal/modules/cjs/loader:1290:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+
+Node.js v24.6.0
+file:///home/rumahs31/rumah-selam-lembeh/app.js:1
+var http = require('http');
+           ^
+
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/home/rumahs31/rumah-selam-lembeh/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///home/rumahs31/rumah-selam-lembeh/app.js:1:12
+    at ModuleJobSync.runSync (node:internal/modules/esm/module_job:507:37)
+    at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:441:47)
+    at loadESMFromCJS (node:internal/modules/cjs/loader:1567:24)
+    at Module._compile (node:internal/modules/cjs/loader:1720:5)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1871:10)
+    at Module.load (node:internal/modules/cjs/loader:1470:32)
+    at Module._load (node:internal/modules/cjs/loader:1290:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+
+Node.js v24.6.0
+file:///home/rumahs31/rumah-selam-lembeh/app.js:1
+var http = require('http');
+           ^
+
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/home/rumahs31/rumah-selam-lembeh/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///home/rumahs31/rumah-selam-lembeh/app.js:1:12
+    at ModuleJobSync.runSync (node:internal/modules/esm/module_job:507:37)
+    at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:441:47)
+    at loadESMFromCJS (node:internal/modules/cjs/loader:1567:24)
+    at Module._compile (node:internal/modules/cjs/loader:1720:5)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1871:10)
+    at Module.load (node:internal/modules/cjs/loader:1470:32)
+    at Module._load (node:internal/modules/cjs/loader:1290:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+
+Node.js v24.6.0
+file:///home/rumahs31/rumah-selam-lembeh/app.js:1
+var http = require('http');
+           ^
+
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/home/rumahs31/rumah-selam-lembeh/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///home/rumahs31/rumah-selam-lembeh/app.js:1:12
+    at ModuleJobSync.runSync (node:internal/modules/esm/module_job:507:37)
+    at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:441:47)
+    at loadESMFromCJS (node:internal/modules/cjs/loader:1567:24)
+    at Module._compile (node:internal/modules/cjs/loader:1720:5)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1871:10)
+    at Module.load (node:internal/modules/cjs/loader:1470:32)
+    at Module._load (node:internal/modules/cjs/loader:1290:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+
+Node.js v24.6.0
+file:///home/rumahs31/rumah-selam-lembeh/app.js:1
+var http = require('http');
+           ^
+
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/home/rumahs31/rumah-selam-lembeh/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///home/rumahs31/rumah-selam-lembeh/app.js:1:12
+    at ModuleJobSync.runSync (node:internal/modules/esm/module_job:507:37)
+    at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:441:47)
+    at loadESMFromCJS (node:internal/modules/cjs/loader:1567:24)
+    at Module._compile (node:internal/modules/cjs/loader:1720:5)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1871:10)
+    at Module.load (node:internal/modules/cjs/loader:1470:32)
+    at Module._load (node:internal/modules/cjs/loader:1290:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+
+Node.js v24.6.0
+file:///home/rumahs31/rumah-selam-lembeh/app.js:1
+var http = require('http');
+           ^
+
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/home/rumahs31/rumah-selam-lembeh/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///home/rumahs31/rumah-selam-lembeh/app.js:1:12
+    at ModuleJobSync.runSync (node:internal/modules/esm/module_job:507:37)
+    at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:441:47)
+    at loadESMFromCJS (node:internal/modules/cjs/loader:1567:24)
+    at Module._compile (node:internal/modules/cjs/loader:1720:5)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1871:10)
+    at Module.load (node:internal/modules/cjs/loader:1470:32)
+    at Module._load (node:internal/modules/cjs/loader:1290:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+
+Node.js v24.6.0
+file:///home/rumahs31/rumah-selam-lembeh/app.js:1
+var http = require('http');
+           ^
+
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/home/rumahs31/rumah-selam-lembeh/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///home/rumahs31/rumah-selam-lembeh/app.js:1:12
+    at ModuleJobSync.runSync (node:internal/modules/esm/module_job:507:37)
+    at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:441:47)
+    at loadESMFromCJS (node:internal/modules/cjs/loader:1567:24)
+    at Module._compile (node:internal/modules/cjs/loader:1720:5)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1871:10)
+    at Module.load (node:internal/modules/cjs/loader:1470:32)
+    at Module._load (node:internal/modules/cjs/loader:1290:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+
+Node.js v24.6.0
+file:///home/rumahs31/rumah-selam-lembeh/app.js:1
+var http = require('http');
+           ^
+
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/home/rumahs31/rumah-selam-lembeh/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///home/rumahs31/rumah-selam-lembeh/app.js:1:12
+    at ModuleJobSync.runSync (node:internal/modules/esm/module_job:507:37)
+    at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:441:47)
+    at loadESMFromCJS (node:internal/modules/cjs/loader:1567:24)
+    at Module._compile (node:internal/modules/cjs/loader:1720:5)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1871:10)
+    at Module.load (node:internal/modules/cjs/loader:1470:32)
+    at Module._load (node:internal/modules/cjs/loader:1290:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+
+Node.js v24.6.0
+file:///home/rumahs31/rumah-selam-lembeh/app.js:1
+var http = require('http');
+           ^
+
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/home/rumahs31/rumah-selam-lembeh/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///home/rumahs31/rumah-selam-lembeh/app.js:1:12
+    at ModuleJobSync.runSync (node:internal/modules/esm/module_job:507:37)
+    at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:441:47)
+    at loadESMFromCJS (node:internal/modules/cjs/loader:1567:24)
+    at Module._compile (node:internal/modules/cjs/loader:1720:5)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1871:10)
+    at Module.load (node:internal/modules/cjs/loader:1470:32)
+    at Module._load (node:internal/modules/cjs/loader:1290:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+
+Node.js v24.6.0
+file:///home/rumahs31/rumah-selam-lembeh/app.js:1
+var http = require('http');
+           ^
+
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/home/rumahs31/rumah-selam-lembeh/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///home/rumahs31/rumah-selam-lembeh/app.js:1:12
+    at ModuleJobSync.runSync (node:internal/modules/esm/module_job:507:37)
+    at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:441:47)
+    at loadESMFromCJS (node:internal/modules/cjs/loader:1567:24)
+    at Module._compile (node:internal/modules/cjs/loader:1720:5)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1871:10)
+    at Module.load (node:internal/modules/cjs/loader:1470:32)
+    at Module._load (node:internal/modules/cjs/loader:1290:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+
+Node.js v24.6.0
+file:///home/rumahs31/rumah-selam-lembeh/app.js:1
+var http = require('http');
+           ^
+
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/home/rumahs31/rumah-selam-lembeh/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///home/rumahs31/rumah-selam-lembeh/app.js:1:12
+    at ModuleJobSync.runSync (node:internal/modules/esm/module_job:507:37)
+    at ModuleLoader.importSyncForRequire (node:internal/modules/esm/loader:441:47)
+    at loadESMFromCJS (node:internal/modules/cjs/loader:1567:24)
+    at Module._compile (node:internal/modules/cjs/loader:1720:5)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1871:10)
+    at Module.load (node:internal/modules/cjs/loader:1470:32)
+    at Module._load (node:internal/modules/cjs/loader:1290:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+
+Node.js v24.6.0

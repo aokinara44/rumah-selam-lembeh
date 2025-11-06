@@ -1,0 +1,104 @@
+/* Lokasi File: resources/css/app.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+|--------------------------------------------------------------------------
+| Animasi dan Utility Kustom
+|--------------------------------------------------------------------------
+*/
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.8s ease-out forwards;
+    opacity: 0;
+}
+
+.text-shadow-subtle {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+/*
+|--------------------------------------------------------------------------
+| Komponen Kustom (Dipindahkan dari main.blade.php)
+|--------------------------------------------------------------------------
+*/
+
+@layer components {
+
+    /* == Style Logo == */
+    .logo-rumah {
+        color: #38BDF8;
+    }
+    .logo-selam {
+        color: #FACC15;
+    }
+    .logo-divecenter {
+        color: #38BDF8;
+    }
+    .logo-sulawesi {
+        color: #FACC15;
+    }
+    .logo-pipe {
+        color: #FFFFFF;
+        opacity: 0.7;
+    }
+    .logo-subtitle {
+        font-size: 0.6rem;
+        font-weight: 500;
+        letter-spacing: 0.15em;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        transition: all 0.3s ease-in-out;
+        white-space: nowrap;
+    }
+    .logo-subtitle.scrolled {
+        font-size: 0.5rem;
+        opacity: 0.8;
+    }
+
+    /* == Style Dropdown Desktop == */
+    /* !! DITAMBAHKAN KEMBALI UNTUK FIX BUG !! */
+    .dropdown-item {
+        @apply block w-full px-4 py-2 text-left text-sm text-gray-700 hover:bg-gray-100;
+    }
+    .dropdown-item-active {
+        @apply font-semibold bg-gray-50 text-blue-600;
+    }
+
+    /* == Style Navigasi Mobile (Link Utama) == */
+    .mobile-nav-link {
+        @apply block px-4 py-3 rounded-lg text-base font-medium text-white hover:bg-white/10 hover:text-yellow-300 transition duration-150 ease-in-out;
+    }
+    .mobile-nav-link-active {
+        @apply block px-4 py-3 rounded-lg text-lg font-semibold bg-white/10 text-yellow-300 shadow-inner transition duration-150 ease-in-out;
+    }
+
+    /* == Style Navigasi Mobile (Link Sub-menu/Accordion) == */
+    /* !! DITAMBAHKAN KEMBALI UNTUK FIX BUG TAMPILAN !! */
+    .mobile-accordion-item {
+        @apply block w-full pl-8 pr-3 py-2 text-base font-medium text-blue-100 hover:bg-blue-700 hover:text-white transition duration-150 ease-in-out rounded-md;
+    }
+    .mobile-accordion-item-active {
+        @apply bg-blue-900 text-white font-semibold;
+    }
+
+    /* == Style Navigasi Mobile (Link Bahasa) == */
+    .mobile-lang-link {
+        @apply flex items-center px-4 py-2.5 rounded-lg text-sm text-white hover:bg-white/10 hover:text-yellow-300 transition duration-150 ease-in-out;
+    }
+    .mobile-lang-link-active {
+        @apply flex items-center px-4 py-2.5 rounded-lg text-base font-semibold bg-white/10 text-yellow-300 transition duration-150 ease-in-out;
+    }
+}
