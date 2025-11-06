@@ -66,8 +66,18 @@
                                             </div>
                                         </td>
                                         <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium align-top">
-                                            <a href="{{ route('admin.service-categories.edit', $category->id) }}" class="text-indigo-600 hover:text-indigo-900 mr-3">{{ __('Edit') }}</a>
-                                            <form action="{{ route('admin.service-categories.destroy', $category->id) }}" method="POST" class="inline-block" onsubmit="return confirm('Are you sure you want to delete this category? This cannot be undone.');">
+                                            
+                                            {{-- ========================================================== --}}
+                                            {{-- !! PERBAIKAN BUG 404 DI SINI !! --}}
+                                            {{-- Ganti $category->id menjadi $category->slug --}}
+                                            {{-- ========================================================== --}}
+                                            <a href="{{ route('admin.service-categories.edit', $category->slug) }}" class="text-indigo-600 hover:text-indigo-900 mr-3">{{ __('Edit') }}</a>
+                                            
+                                            {{-- ========================================================== --}}
+                                            {{-- !! PERBAIKAN BUG 404 DI SINI !! --}}
+                                            {{-- Ganti $category->id menjadi $category->slug --}}
+                                            {{-- ========================================================== --}}
+                                            <form action="{{ route('admin.service-categories.destroy', $category->slug) }}" method="POST" class="inline-block" onsubmit="return confirm('Are you sure you want to delete this category? This cannot be undone.');">
                                                 @csrf
                                                 @method('DELETE')
                                                 <button type="submit" class="text-red-600 hover:text-red-900">{{ __('Delete') }}</button>
