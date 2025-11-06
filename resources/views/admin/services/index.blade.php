@@ -1,25 +1,22 @@
+{{-- resources/views/admin/services/index.blade.php --}}
 <x-app-layout>
-    <!-- Header Halaman -->
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
             {{ __('Manajemen Layanan') }}
         </h2>
     </x-slot>
 
-    <!-- Konten Halaman -->
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900">
                     
-                    <!-- Tombol Tambah Data -->
                     <div class="mb-4">
                         <a href="{{ route('admin.services.create') }}" class="inline-flex items-center px-4 py-2 bg-blue-600 border border-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:ring focus:ring-blue-200 active:bg-blue-600 disabled:opacity-25 transition">
                             {{ __('Tambah Layanan') }}
                         </a>
                     </div>
 
-                    <!-- Tabel Data -->
                     <div class="overflow-x-auto">
                         <table class="min-w-full divide-y divide-gray-200 border">
                             <thead class="bg-gray-50">
@@ -48,8 +45,18 @@
                                         </td>
                                         <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
                                             <div class="flex items-center justify-end space-x-4">
-                                                <a href="{{ route('admin.services.edit', $service) }}" class="text-indigo-600 hover:text-indigo-900">Edit</a>
-                                                <form action="{{ route('admin.services.destroy', $service) }}" method="POST" onsubmit="return confirm('Apakah Anda yakin ingin menghapus layanan ini?');">
+                                                
+                                                {{-- ========================================================== --}}
+                                                {{-- !! PERBAIKAN BUG 404 DI SINI !! --}}
+                                                {{-- Ganti $service menjadi $service->slug --}}
+                                                {{-- ========================================================== --}}
+                                                <a href="{{ route('admin.services.edit', $service->slug) }}" class="text-indigo-600 hover:text-indigo-900">Edit</a>
+                                                
+                                                {{-- ========================================================== --}}
+                                                {{-- !! PERBAIKAN BUG 404 DI SINI !! --}}
+                                                {{-- Ganti $service menjadi $service->slug --}}
+                                                {{-- ========================================================== --}}
+                                                <form action="{{ route('admin.services.destroy', $service->slug) }}" method="POST" onsubmit="return confirm('Apakah Anda yakin ingin menghapus layanan ini?');">
                                                     @csrf
                                                     @method('DELETE')
                                                     <button type="submit" class="text-red-600 hover:text-red-900">Hapus</button>
@@ -68,7 +75,6 @@
                         </table>
                     </div>
                     
-                    <!-- Paginasi -->
                     <div class="mt-4">
                         {{ $services->links() }}
                     </div>

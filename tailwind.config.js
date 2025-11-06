@@ -1,39 +1,37 @@
-// Lokasi file: tailwind.config.js
+// tailwind.config.js
+
+// !! PERBAIKAN DI SINI: Import 'typography' !!
 import defaultTheme from 'tailwindcss/defaultTheme';
 import forms from '@tailwindcss/forms';
+import typography from '@tailwindcss/typography'; // <-- !! TAMBAHKAN BARIS INI !!
 
 /** @type {import('tailwindcss').Config} */
 export default {
     content: [
         './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
         './storage/framework/views/*.php',
-        './resources/views/**/*.blade.php', // Path Anda sudah benar
+        './resources/views/**/*.blade.php', 
     ],
 
-    // !! PERUBAHAN DI SINI: Tambahkan SAFELIST !!
-    // Ini memberi tahu Tailwind untuk TIDAK menghapus kelas-kelas ini,
-    // yang kita gunakan secara dinamis di Alpine.js untuk pin.
+    // Safelist yang kamu tambahkan sudah benar, kita biarkan
     safelist: [
-        'text-red-600',   // Warna pin default
-        'text-blue-600',  // Warna pin saat aktif
-        'w-8',            // Lebar pin
-        'h-8',            // Tinggi pin
+        'text-red-600',
+        'text-blue-600',
+        'w-8',
+        'h-8',
     ],
-    // !! AKHIR PERUBAHAN !!
 
     theme: {
         extend: {
             fontFamily: {
-                // Gunakan Figtree sebagai font default sans-serif
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
-            // Kamu bisa menambahkan warna custom di sini jika perlu
-            // colors: {
-            //     'brand-blue': '#1e40af', // Contoh
-            //     'brand-yellow': '#facc15', // Contoh
-            // }
         },
     },
 
-    plugins: [forms],
+    // !! PERBAIKAN DI SINI: Daftarkan 'typography' !!
+    plugins: [
+        forms,
+        typography // <-- !! TAMBAHKAN BARIS INI !!
+    ],
 };
