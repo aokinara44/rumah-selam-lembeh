@@ -43,22 +43,18 @@
             }"
             class="fixed w-full z-50 transition-all duration-300 ease-in-out py-2.5 md:py-3" x-ref="header">
             <nav class="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
+                
                 <a href="{{ route('home', ['locale' => app()->getLocale()]) }}"
                     class="flex-shrink-0 transition-all duration-300">
-                    <div class="flex flex-col items-start leading-none">
-                        <div class="font-bold tracking-[0.1em] transition-all duration-300 text-shadow-subtle"
-                            :class="{ 'text-xl md:text-2xl': !scrolled, 'text-lg md:text-xl': scrolled }">
-                            <span class="logo-rumah">RUMAH</span> <span class="logo-selam">SELAM</span>
-                        </div>
-                        <div class="transition-all duration-300 overflow-hidden"
-                            :class="{ 'max-h-5': !scrolled, 'max-h-4': scrolled }">
-                            <span class="logo-subtitle block text-shadow-subtle" :class="{ 'scrolled': scrolled }"><span
-                                    class="logo-divecenter">DIVE CENTER</span><span
-                                    class="logo-pipe mx-1">|</span><span class="logo-sulawesi">NORTH
-                                    SULAWESI</span></span>
-                        </div>
-                    </div>
+                    
+                    {{-- Logo Gambar Baru --}}
+                    <img src="{{ asset('images/logo.png') }}" alt="Rumah Selam Lembeh Logo" 
+                         class="w-auto transition-all duration-300"
+                         {{-- :class ini akan membuat logo mengecil saat di-scroll --}}
+                         :class="{ 'h-16': !scrolled, 'h-12': scrolled }">
+                         
                 </a>
+
 
                 <div class="hidden md:flex flex-grow justify-center items-center space-x-7 lg:space-x-10">
 
@@ -262,9 +258,18 @@
                         <a href="{{ route('home', ['locale' => app()->getLocale()]) }}" class="mb-4"><img
                                 src="{{ asset('images/logo.png') }}" alt="Rumah Selam Logo"
                                 class="h-20 w-auto" width="80" height="80"></a>
+                        
+                        {{-- ========================================================== --}}
+                        {{-- !! PERBAIKAN TRANSLASI DI SINI !! --}}
+                        {{-- Mengganti kunci yang panjang dengan kunci yang pendek --}}
+                        {{-- ========================================================== --}}
                         <p class="text-sm text-gray-400 leading-relaxed">
-                            {{ __('Your premier destination for muck diving in the Lembeh Strait. Experience the best of underwater biodiversity with us.') }}
+                            {{ __('footer.description') }}
                         </p>
+                        {{-- ========================================================== --}}
+                        {{-- !! AKHIR PERBAIKAN !! --}}
+                        {{-- ========================================================== --}}
+
                     </div>
                     <div>
                         <p class="text-base font-semibold mb-4 tracking-wider uppercase text-gray-100">
